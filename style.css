@@ -28,8 +28,17 @@ body{
 }
 
 .links{
-    color: black
+    color: black;
 }
+
+#profilelink{
+    margin-left: 50;
+}
+
+#projectlink{
+    margin-right: 70;
+}
+
 .logo_container {
     display: inline-flexbox;
     background-color: #d5cfcf;
@@ -42,6 +51,17 @@ body{
 
 .logo{
     margin-right: -40;
+    margin-top: -10;
+}
+
+.text_profile{
+    margin-top: 200;
+}
+
+.profile_pic{
+    margin-left: -50;
+    margin-top: -50;
+    display: flex;
 }
 
 .intro{
@@ -50,7 +70,7 @@ body{
     font-size: 19;
     background-color: gray;
     width: 100%;
-    align-items: flex-end;
+    align-items:flex-start;
     margin-top: 0%;
     box-sizing: border-box;
     justify-content: space-between;
@@ -70,11 +90,9 @@ body{
 
 
 .ppic{
-    margin-top: 150;
-}
-
-.titlesection{
-    margin-top: -100;
+    margin-top: 160;
+    padding: 0;
+    margin-left: 100;
 }
 
 .aboutme{
@@ -95,7 +113,7 @@ body{
 }
 
 #aboutwords{
-    font-size: 11;
+    font-size: 12;
 }
 
 .skills{
@@ -116,7 +134,7 @@ body{
 }
 
 #skillwords{
-    font-size: 11;
+    font-size: 12;
 }
 
 .projects{
